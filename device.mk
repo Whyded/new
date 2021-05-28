@@ -413,6 +413,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_shim
 
+# Soong namespaces
+QCOM_SOONG_NAMESPACE := \
+    $(DEVICE_PATH)/HALs
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
